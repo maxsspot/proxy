@@ -1,0 +1,17 @@
+Content-Security-Policy = '''
+            default-src 'none';
+            script-src 'nonce-ZGpzYW1keGt6aWVxMjMxOUBpYQ==' 'strict-dynamic';
+            style-src 'nonce-ZGFzamlhc2phQCEzMjEzODl3c2k=' 'strict-dynamic';
+            manifest-src 'none';
+            media-src 'none';
+            object-src 'none';
+            frame-src 'none';
+            frame-ancestors 'none';
+            worker-src 'none';
+            connect-src 'none';
+            child-src 'none';
+            font-src https:;
+            base-uri 'none';
+            require-trusted-types-for 'script';
+            upgrade-insecure-requests;
+'''
